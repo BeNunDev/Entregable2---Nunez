@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moneda</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conversor de Moneda</h1>
+
+      <form id="form-conversor">
+        <label for="monto">Monto en ARS:</label>
+        <input type="number" id="monto" required />
+
+        <label for="moneda">Convertir a:</label>
+        <select id="moneda" required>
+          <option value="">Seleccionar</option>
+          <option value="USD">Dólar (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+        </select>
+
+        <button type="submit">Convertir</button>
+      </form>
+
+      <div id="resultado"></div>
+
+      <h2>Historial de conversiones</h2>
+      <ul id="historial"></ul>
+    </div>
+
+    <script src="js/conversor.js"></script>
+  </body>
+</html>

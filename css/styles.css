@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+#resultado {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#historial {
+  margin-top: 10px;
+}
